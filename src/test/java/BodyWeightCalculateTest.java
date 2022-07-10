@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class bodyWeightCalculateTest {
+public class BodyWeightCalculateTest {
     @Test
     public void starvationTest() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
